@@ -1,2 +1,3 @@
 /data
-/training_checkpoint
+/checkpoint
+/model
