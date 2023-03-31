@@ -1,212 +1,212 @@
-2023-03-31 10:55:27.826240: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
-2023-03-31 10:55:27.853524: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
-2023-03-31 10:55:27.853900: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+2023-03-31 13:22:33.430982: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-03-31 13:22:33.457112: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-03-31 13:22:33.457487: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
 To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
-2023-03-31 10:55:28.348376: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2023-03-31 13:22:33.964002: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
 Found 24800 files belonging to 2 classes.
 Using 19840 files for training.
 Found 200 files belonging to 2 classes.
-2023-03-31 10:55:29.406722: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'Placeholder/_0' with dtype string and shape [19840]
-	 [[{{node Placeholder/_0}}]]
-2023-03-31 10:55:29.406925: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'Placeholder/_0' with dtype string and shape [19840]
-	 [[{{node Placeholder/_0}}]]
+2023-03-31 13:22:34.986633: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'Placeholder/_4' with dtype int32 and shape [19840]
+	 [[{{node Placeholder/_4}}]]
+2023-03-31 13:22:34.986854: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'Placeholder/_4' with dtype int32 and shape [19840]
+	 [[{{node Placeholder/_4}}]]
 Using 40 files for validation.
 Epoch 1/40
-2023-03-31 10:58:49.057063: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'Placeholder/_4' with dtype int32 and shape [40]
+2023-03-31 13:26:56.052110: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'Placeholder/_4' with dtype int32 and shape [40]
 	 [[{{node Placeholder/_4}}]]
-2023-03-31 10:58:49.057352: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'Placeholder/_4' with dtype int32 and shape [40]
+2023-03-31 13:26:56.052347: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'Placeholder/_4' with dtype int32 and shape [40]
 	 [[{{node Placeholder/_4}}]]
 
 Epoch 1: saving model to checkpoint/cp.ckpt
-620/620 - 200s - loss: 0.5989 - accuracy: 0.6686 - val_loss: 0.4728 - val_accuracy: 0.8000 - 200s/epoch - 322ms/step
+620/620 - 261s - loss: 0.6312 - accuracy: 0.6364 - val_loss: 0.6245 - val_accuracy: 0.8000 - 261s/epoch - 422ms/step
 Epoch 2/40
 
 Epoch 2: saving model to checkpoint/cp.ckpt
-620/620 - 201s - loss: 0.4627 - accuracy: 0.7810 - val_loss: 0.4623 - val_accuracy: 0.7750 - 201s/epoch - 323ms/step
+620/620 - 261s - loss: 0.4833 - accuracy: 0.7667 - val_loss: 0.5119 - val_accuracy: 0.7250 - 261s/epoch - 421ms/step
 Epoch 3/40
 
 Epoch 3: saving model to checkpoint/cp.ckpt
-620/620 - 199s - loss: 0.3763 - accuracy: 0.8295 - val_loss: 0.4768 - val_accuracy: 0.6750 - 199s/epoch - 321ms/step
+620/620 - 262s - loss: 0.3717 - accuracy: 0.8331 - val_loss: 0.5047 - val_accuracy: 0.7500 - 262s/epoch - 422ms/step
 Epoch 4/40
 
 Epoch 4: saving model to checkpoint/cp.ckpt
-620/620 - 200s - loss: 0.2837 - accuracy: 0.8770 - val_loss: 0.5694 - val_accuracy: 0.7750 - 200s/epoch - 323ms/step
+620/620 - 260s - loss: 0.2595 - accuracy: 0.8916 - val_loss: 0.4553 - val_accuracy: 0.8500 - 260s/epoch - 419ms/step
 Epoch 5/40
 
 Epoch 5: saving model to checkpoint/cp.ckpt
-620/620 - 199s - loss: 0.1852 - accuracy: 0.9242 - val_loss: 0.4889 - val_accuracy: 0.7500 - 199s/epoch - 321ms/step
+620/620 - 260s - loss: 0.1344 - accuracy: 0.9484 - val_loss: 0.3970 - val_accuracy: 0.9000 - 260s/epoch - 419ms/step
 Epoch 6/40
 
 Epoch 6: saving model to checkpoint/cp.ckpt
-620/620 - 200s - loss: 0.1133 - accuracy: 0.9567 - val_loss: 0.5192 - val_accuracy: 0.8250 - 200s/epoch - 322ms/step
+620/620 - 261s - loss: 0.0757 - accuracy: 0.9731 - val_loss: 0.6987 - val_accuracy: 0.9000 - 261s/epoch - 421ms/step
 Epoch 7/40
 
 Epoch 7: saving model to checkpoint/cp.ckpt
-620/620 - 200s - loss: 0.0678 - accuracy: 0.9764 - val_loss: 0.6263 - val_accuracy: 0.7500 - 200s/epoch - 322ms/step
+620/620 - 261s - loss: 0.0556 - accuracy: 0.9806 - val_loss: 0.6645 - val_accuracy: 0.8500 - 261s/epoch - 421ms/step
 Epoch 8/40
 
 Epoch 8: saving model to checkpoint/cp.ckpt
-620/620 - 198s - loss: 0.0496 - accuracy: 0.9830 - val_loss: 1.0569 - val_accuracy: 0.7000 - 198s/epoch - 320ms/step
+620/620 - 260s - loss: 0.0342 - accuracy: 0.9886 - val_loss: 0.9775 - val_accuracy: 0.8750 - 260s/epoch - 420ms/step
 Epoch 9/40
 
 Epoch 9: saving model to checkpoint/cp.ckpt
-620/620 - 199s - loss: 0.0379 - accuracy: 0.9880 - val_loss: 0.6453 - val_accuracy: 0.8250 - 199s/epoch - 322ms/step
+620/620 - 260s - loss: 0.0377 - accuracy: 0.9870 - val_loss: 1.1361 - val_accuracy: 0.8750 - 260s/epoch - 420ms/step
 Epoch 10/40
 
 Epoch 10: saving model to checkpoint/cp.ckpt
-620/620 - 199s - loss: 0.0451 - accuracy: 0.9843 - val_loss: 0.7410 - val_accuracy: 0.7750 - 199s/epoch - 321ms/step
+620/620 - 259s - loss: 0.0349 - accuracy: 0.9907 - val_loss: 1.3750 - val_accuracy: 0.8000 - 259s/epoch - 418ms/step
 Epoch 11/40
 
 Epoch 11: saving model to checkpoint/cp.ckpt
-620/620 - 200s - loss: 0.0299 - accuracy: 0.9891 - val_loss: 0.8734 - val_accuracy: 0.7750 - 200s/epoch - 322ms/step
+620/620 - 261s - loss: 0.0262 - accuracy: 0.9907 - val_loss: 1.6044 - val_accuracy: 0.7750 - 261s/epoch - 421ms/step
 Epoch 12/40
 
 Epoch 12: saving model to checkpoint/cp.ckpt
-620/620 - 200s - loss: 0.0262 - accuracy: 0.9916 - val_loss: 1.0993 - val_accuracy: 0.8000 - 200s/epoch - 323ms/step
+620/620 - 260s - loss: 0.0221 - accuracy: 0.9924 - val_loss: 1.5766 - val_accuracy: 0.8250 - 260s/epoch - 420ms/step
 Epoch 13/40
 
 Epoch 13: saving model to checkpoint/cp.ckpt
-620/620 - 198s - loss: 0.0344 - accuracy: 0.9886 - val_loss: 0.9476 - val_accuracy: 0.8000 - 198s/epoch - 319ms/step
+620/620 - 260s - loss: 0.0259 - accuracy: 0.9920 - val_loss: 1.6306 - val_accuracy: 0.8000 - 260s/epoch - 419ms/step
 Epoch 14/40
 
 Epoch 14: saving model to checkpoint/cp.ckpt
-620/620 - 199s - loss: 0.0331 - accuracy: 0.9889 - val_loss: 0.8054 - val_accuracy: 0.8000 - 199s/epoch - 321ms/step
+620/620 - 260s - loss: 0.0200 - accuracy: 0.9935 - val_loss: 1.3847 - val_accuracy: 0.7500 - 260s/epoch - 419ms/step
 Epoch 15/40
 
 Epoch 15: saving model to checkpoint/cp.ckpt
-620/620 - 198s - loss: 0.0180 - accuracy: 0.9944 - val_loss: 1.3653 - val_accuracy: 0.7750 - 198s/epoch - 319ms/step
+620/620 - 261s - loss: 0.0262 - accuracy: 0.9917 - val_loss: 1.6214 - val_accuracy: 0.8000 - 261s/epoch - 421ms/step
 Epoch 16/40
 
 Epoch 16: saving model to checkpoint/cp.ckpt
-620/620 - 200s - loss: 0.0192 - accuracy: 0.9934 - val_loss: 0.8371 - val_accuracy: 0.8000 - 200s/epoch - 322ms/step
+620/620 - 262s - loss: 0.0144 - accuracy: 0.9956 - val_loss: 1.4763 - val_accuracy: 0.8000 - 262s/epoch - 422ms/step
 Epoch 17/40
 
 Epoch 17: saving model to checkpoint/cp.ckpt
-620/620 - 199s - loss: 0.0184 - accuracy: 0.9938 - val_loss: 1.7399 - val_accuracy: 0.7500 - 199s/epoch - 321ms/step
+620/620 - 260s - loss: 0.0236 - accuracy: 0.9924 - val_loss: 2.0189 - val_accuracy: 0.8250 - 260s/epoch - 419ms/step
 Epoch 18/40
 
 Epoch 18: saving model to checkpoint/cp.ckpt
-620/620 - 199s - loss: 0.0208 - accuracy: 0.9935 - val_loss: 1.3729 - val_accuracy: 0.7750 - 199s/epoch - 321ms/step
+620/620 - 260s - loss: 0.0101 - accuracy: 0.9969 - val_loss: 1.8463 - val_accuracy: 0.8000 - 260s/epoch - 420ms/step
 Epoch 19/40
 
 Epoch 19: saving model to checkpoint/cp.ckpt
-620/620 - 200s - loss: 0.0176 - accuracy: 0.9948 - val_loss: 1.4518 - val_accuracy: 0.6750 - 200s/epoch - 322ms/step
+620/620 - 259s - loss: 0.0176 - accuracy: 0.9944 - val_loss: 1.7552 - val_accuracy: 0.7500 - 259s/epoch - 418ms/step
 Epoch 20/40
 
 Epoch 20: saving model to checkpoint/cp.ckpt
-620/620 - 198s - loss: 0.0168 - accuracy: 0.9940 - val_loss: 1.2944 - val_accuracy: 0.8000 - 198s/epoch - 319ms/step
+620/620 - 261s - loss: 0.0152 - accuracy: 0.9957 - val_loss: 1.6553 - val_accuracy: 0.7750 - 261s/epoch - 420ms/step
 Epoch 21/40
 
 Epoch 21: saving model to checkpoint/cp.ckpt
-620/620 - 199s - loss: 0.0158 - accuracy: 0.9955 - val_loss: 2.1802 - val_accuracy: 0.7500 - 199s/epoch - 321ms/step
+620/620 - 259s - loss: 0.0135 - accuracy: 0.9956 - val_loss: 1.1832 - val_accuracy: 0.8000 - 259s/epoch - 418ms/step
 Epoch 22/40
 
 Epoch 22: saving model to checkpoint/cp.ckpt
-620/620 - 198s - loss: 0.0175 - accuracy: 0.9943 - val_loss: 1.7196 - val_accuracy: 0.8000 - 198s/epoch - 320ms/step
+620/620 - 261s - loss: 0.0206 - accuracy: 0.9939 - val_loss: 2.9830 - val_accuracy: 0.7500 - 261s/epoch - 421ms/step
 Epoch 23/40
 
 Epoch 23: saving model to checkpoint/cp.ckpt
-620/620 - 199s - loss: 0.0139 - accuracy: 0.9959 - val_loss: 1.3100 - val_accuracy: 0.8000 - 199s/epoch - 321ms/step
+620/620 - 260s - loss: 0.0118 - accuracy: 0.9969 - val_loss: 1.4444 - val_accuracy: 0.8250 - 260s/epoch - 419ms/step
 Epoch 24/40
 
 Epoch 24: saving model to checkpoint/cp.ckpt
-620/620 - 201s - loss: 0.0261 - accuracy: 0.9928 - val_loss: 1.9011 - val_accuracy: 0.7750 - 201s/epoch - 323ms/step
+620/620 - 262s - loss: 0.0091 - accuracy: 0.9970 - val_loss: 1.6233 - val_accuracy: 0.8250 - 262s/epoch - 423ms/step
 Epoch 25/40
 
 Epoch 25: saving model to checkpoint/cp.ckpt
-620/620 - 199s - loss: 0.0152 - accuracy: 0.9956 - val_loss: 2.1681 - val_accuracy: 0.7750 - 199s/epoch - 321ms/step
+620/620 - 259s - loss: 0.0125 - accuracy: 0.9962 - val_loss: 1.6067 - val_accuracy: 0.8000 - 259s/epoch - 418ms/step
 Epoch 26/40
 
 Epoch 26: saving model to checkpoint/cp.ckpt
-620/620 - 200s - loss: 0.0076 - accuracy: 0.9971 - val_loss: 1.8792 - val_accuracy: 0.7750 - 200s/epoch - 323ms/step
+620/620 - 261s - loss: 0.0183 - accuracy: 0.9946 - val_loss: 1.7344 - val_accuracy: 0.8000 - 261s/epoch - 421ms/step
 Epoch 27/40
 
 Epoch 27: saving model to checkpoint/cp.ckpt
-620/620 - 198s - loss: 0.0170 - accuracy: 0.9942 - val_loss: 2.6691 - val_accuracy: 0.7500 - 198s/epoch - 320ms/step
+620/620 - 259s - loss: 0.0160 - accuracy: 0.9956 - val_loss: 2.2465 - val_accuracy: 0.7500 - 259s/epoch - 418ms/step
 Epoch 28/40
 
 Epoch 28: saving model to checkpoint/cp.ckpt
-620/620 - 200s - loss: 0.0154 - accuracy: 0.9948 - val_loss: 2.4783 - val_accuracy: 0.7250 - 200s/epoch - 322ms/step
+620/620 - 259s - loss: 0.0089 - accuracy: 0.9974 - val_loss: 1.3942 - val_accuracy: 0.8250 - 259s/epoch - 418ms/step
 Epoch 29/40
 
 Epoch 29: saving model to checkpoint/cp.ckpt
-620/620 - 199s - loss: 0.0095 - accuracy: 0.9968 - val_loss: 2.1054 - val_accuracy: 0.7500 - 199s/epoch - 321ms/step
+620/620 - 259s - loss: 0.0080 - accuracy: 0.9972 - val_loss: 2.0795 - val_accuracy: 0.7750 - 259s/epoch - 418ms/step
 Epoch 30/40
 
 Epoch 30: saving model to checkpoint/cp.ckpt
-620/620 - 199s - loss: 0.0133 - accuracy: 0.9962 - val_loss: 2.9138 - val_accuracy: 0.7250 - 199s/epoch - 322ms/step
+620/620 - 262s - loss: 0.0083 - accuracy: 0.9971 - val_loss: 2.2131 - val_accuracy: 0.8250 - 262s/epoch - 422ms/step
 Epoch 31/40
 
 Epoch 31: saving model to checkpoint/cp.ckpt
-620/620 - 200s - loss: 0.0125 - accuracy: 0.9959 - val_loss: 2.2037 - val_accuracy: 0.7500 - 200s/epoch - 323ms/step
+620/620 - 261s - loss: 0.0131 - accuracy: 0.9961 - val_loss: 1.6932 - val_accuracy: 0.8000 - 261s/epoch - 421ms/step
 Epoch 32/40
 
 Epoch 32: saving model to checkpoint/cp.ckpt
-620/620 - 198s - loss: 0.0150 - accuracy: 0.9955 - val_loss: 1.5554 - val_accuracy: 0.7750 - 198s/epoch - 320ms/step
+620/620 - 261s - loss: 0.0136 - accuracy: 0.9962 - val_loss: 2.3157 - val_accuracy: 0.8500 - 261s/epoch - 420ms/step
 Epoch 33/40
 
 Epoch 33: saving model to checkpoint/cp.ckpt
-620/620 - 201s - loss: 0.0162 - accuracy: 0.9947 - val_loss: 3.0110 - val_accuracy: 0.7500 - 201s/epoch - 324ms/step
+620/620 - 261s - loss: 0.0102 - accuracy: 0.9969 - val_loss: 1.6206 - val_accuracy: 0.8500 - 261s/epoch - 420ms/step
 Epoch 34/40
 
 Epoch 34: saving model to checkpoint/cp.ckpt
-620/620 - 198s - loss: 0.0124 - accuracy: 0.9959 - val_loss: 2.7051 - val_accuracy: 0.7250 - 198s/epoch - 320ms/step
+620/620 - 259s - loss: 0.0107 - accuracy: 0.9971 - val_loss: 1.8779 - val_accuracy: 0.8250 - 259s/epoch - 418ms/step
 Epoch 35/40
 
 Epoch 35: saving model to checkpoint/cp.ckpt
-620/620 - 201s - loss: 0.0077 - accuracy: 0.9974 - val_loss: 3.3074 - val_accuracy: 0.7000 - 201s/epoch - 324ms/step
+620/620 - 261s - loss: 0.0058 - accuracy: 0.9982 - val_loss: 1.9036 - val_accuracy: 0.8750 - 261s/epoch - 421ms/step
 Epoch 36/40
 
 Epoch 36: saving model to checkpoint/cp.ckpt
-620/620 - 201s - loss: 0.0075 - accuracy: 0.9976 - val_loss: 2.8234 - val_accuracy: 0.7250 - 201s/epoch - 324ms/step
+620/620 - 260s - loss: 0.0123 - accuracy: 0.9968 - val_loss: 1.5413 - val_accuracy: 0.8750 - 260s/epoch - 419ms/step
 Epoch 37/40
 
 Epoch 37: saving model to checkpoint/cp.ckpt
-620/620 - 199s - loss: 0.0086 - accuracy: 0.9976 - val_loss: 3.0781 - val_accuracy: 0.7000 - 199s/epoch - 321ms/step
+620/620 - 261s - loss: 0.0104 - accuracy: 0.9966 - val_loss: 1.5445 - val_accuracy: 0.8500 - 261s/epoch - 421ms/step
 Epoch 38/40
 
 Epoch 38: saving model to checkpoint/cp.ckpt
-620/620 - 200s - loss: 0.0102 - accuracy: 0.9969 - val_loss: 2.4692 - val_accuracy: 0.7500 - 200s/epoch - 322ms/step
+620/620 - 260s - loss: 0.0059 - accuracy: 0.9982 - val_loss: 1.9228 - val_accuracy: 0.9250 - 260s/epoch - 419ms/step
 Epoch 39/40
 
 Epoch 39: saving model to checkpoint/cp.ckpt
-620/620 - 198s - loss: 0.0100 - accuracy: 0.9972 - val_loss: 2.2928 - val_accuracy: 0.7250 - 198s/epoch - 320ms/step
+620/620 - 260s - loss: 0.0100 - accuracy: 0.9969 - val_loss: 1.9868 - val_accuracy: 0.7750 - 260s/epoch - 419ms/step
 Epoch 40/40
 
 Epoch 40: saving model to checkpoint/cp.ckpt
-620/620 - 201s - loss: 0.0102 - accuracy: 0.9966 - val_loss: 2.2871 - val_accuracy: 0.7500 - 201s/epoch - 324ms/step
+620/620 - 260s - loss: 0.0066 - accuracy: 0.9981 - val_loss: 1.8485 - val_accuracy: 0.8250 - 260s/epoch - 419ms/step
 Model: "sequential"
 _________________________________________________________________
  Layer (type)                Output Shape              Param #   
 =================================================================
- rescaling (Rescaling)       (None, 200, 200, 3)       0         
+ rescaling (Rescaling)       (None, 224, 224, 3)       0         
                                                                  
- conv2d (Conv2D)             (None, 198, 198, 32)      896       
+ conv2d (Conv2D)             (None, 222, 222, 32)      896       
                                                                  
- max_pooling2d (MaxPooling2D  (None, 99, 99, 32)       0         
+ max_pooling2d (MaxPooling2D  (None, 111, 111, 32)     0         
  )                                                               
                                                                  
- conv2d_1 (Conv2D)           (None, 97, 97, 32)        9248      
+ conv2d_1 (Conv2D)           (None, 109, 109, 32)      9248      
                                                                  
- max_pooling2d_1 (MaxPooling  (None, 48, 48, 32)       0         
+ max_pooling2d_1 (MaxPooling  (None, 54, 54, 32)       0         
  2D)                                                             
                                                                  
- conv2d_2 (Conv2D)           (None, 46, 46, 64)        18496     
+ conv2d_2 (Conv2D)           (None, 52, 52, 64)        18496     
                                                                  
- max_pooling2d_2 (MaxPooling  (None, 23, 23, 64)       0         
+ max_pooling2d_2 (MaxPooling  (None, 26, 26, 64)       0         
  2D)                                                             
                                                                  
- flatten (Flatten)           (None, 33856)             0         
+ flatten (Flatten)           (None, 43264)             0         
                                                                  
- dense (Dense)               (None, 128)               4333696   
+ dense (Dense)               (None, 128)               5537920   
                                                                  
  dense_1 (Dense)             (None, 1)                 129       
                                                                  
 =================================================================
-Total params: 4,362,465
-Trainable params: 4,362,465
+Total params: 5,566,689
+Trainable params: 5,566,689
 Non-trainable params: 0
 _________________________________________________________________
 WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _update_step_xla while saving (showing 4 of 4). These functions will not be directly callable after loading.
 MODEL SUMMARY None
-> 75.000
+> 82.500

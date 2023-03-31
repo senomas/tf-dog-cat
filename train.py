@@ -8,8 +8,8 @@ from tensorflow.keras import layers
 from tensorflow.keras import preprocessing
 from tensorflow.keras import optimizers
 
-image_w = 200
-image_h = 200
+image_w = 224
+image_h = 224
 
 # define cnn model
 def define_model():
